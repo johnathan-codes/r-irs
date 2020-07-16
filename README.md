@@ -1,5 +1,9 @@
 ## React Internal Reservation System (r-irs)
 
+## Dummy data
+
+`json-server --watch src/assets/rooms.js --port 3001`
+
 # TODO:
 
 - [ ] Display rooms
