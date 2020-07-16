@@ -16,6 +16,23 @@
 					"end_date_iso": "2020-07-16T12:00:00.000Z"
 				}
 			]
+		},
+		{
+			"room_id": 2,
+			"name": "Room 2",
+			"description": "Some basic lorem ipsum 22222",
+			"reservations": [
+				{
+					"reservation_id": 1,
+					"reservee": {
+						"name": "John",
+						"user_id": 1214
+					},
+					"subject": "What is this meeting about",
+					"start_date_iso": "2020-07-16T10:30:00.000Z",
+					"end_date_iso": "2020-07-16T12:00:00.000Z"
+				}
+			]
 		}
 	]
 }
