@@ -13,6 +13,7 @@ const RoomsList = ({ rooms }: Rooms) => {
 					reservations={room.reservations}
 					room_id={room.room_id}
 					name={room.name}
+					key={room.room_id}
 				/>
 			))}
 		</div>

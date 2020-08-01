@@ -3,6 +3,7 @@ import axios from 'axios'
 import { url } from '../helpers/constants'
 import './App.scss'
 import Rooms from '../views/Rooms'
+import { Spinner } from 'reactstrap'
 
 const App = () => {
 	const [rooms, setRooms] = useState([])
@@ -21,7 +22,10 @@ const App = () => {
 		<Rooms rooms={rooms} />
 	) : (
 		<div className="App">
-			<header className="App-header">R-IRS</header>
+			<header className="App-header">
+				R-IRS
+				<Spinner />
+			</header>
 		</div>
 	)
 

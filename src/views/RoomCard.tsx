@@ -1,12 +1,16 @@
 import React from 'react'
+import { Card, CardBody, CardTitle, CardText } from 'reactstrap'
 import { Room } from '../helpers/interfaces'
+import '../styles/rooms.scss'
 
 const RoomCard = ({ description, reservations, room_id, name }: Room) => {
 	return (
-		<div key={room_id}>
-			<header>{name}</header>
-			<small>{description}</small>
-		</div>
+		<Card className="roomCard">
+			<CardBody>
+				<CardTitle>{name}</CardTitle>
+				<CardText>{description}</CardText>
+			</CardBody>
+		</Card>
 	)
 }
 
