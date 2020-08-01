@@ -1,8 +1,8 @@
 import React from 'react'
-import { Rooms } from '../helpers/interfaces'
+import { RoomsIF } from '../helpers/interfaces'
 import RoomCard from './RoomCard'
 
-const RoomsList = ({ rooms }: Rooms) => {
+const RoomsList = ({ rooms }: RoomsIF) => {
 	console.log('Rooms -> rooms', rooms)
 
 	return (

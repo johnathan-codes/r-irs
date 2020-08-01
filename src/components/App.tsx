@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { url } from '../helpers/constants'
 import './App.scss'
-import Rooms from '../views/Rooms'
-import { Spinner } from 'reactstrap'
+import Loader from './Loader'
+import Content from './Content'
 
 const App = () => {
 	const [rooms, setRooms] = useState([])
@@ -18,16 +18,7 @@ const App = () => {
 		}, 2000)
 	}, [])
 
-	const initialElement = loaded ? (
-		<Rooms rooms={rooms} />
-	) : (
-		<div className="App">
-			<header className="App-header">
-				R-IRS
-				<Spinner />
-			</header>
-		</div>
-	)
+	const initialElement = loaded ? <Content rooms={rooms} /> : <Loader />
 
 	return initialElement
 }

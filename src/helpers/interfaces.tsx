@@ -1,8 +1,8 @@
-export interface Rooms {
-	rooms: Room[]
+export interface RoomsIF {
+	rooms: RoomIF[]
 }
 
-export interface Room {
+export interface RoomIF {
 	room_id: number
 	name: string
 	description: string
