@@ -12,8 +12,18 @@
 						"user_id": 1214
 					},
 					"subject": "What is this meeting about",
-					"start_date_iso": "2020-07-16T10:30:00.000Z",
-					"end_date_iso": "2020-07-16T12:00:00.000Z"
+					"start_date_iso": "2020-08-16T10:30:00.000Z",
+					"end_date_iso": "2020-08-16T12:00:00.000Z"
+				},
+				{
+					"reservation_id": 2,
+					"reservee": {
+						"name": "Jodsan",
+						"user_id": 12114
+					},
+					"subject": "What dasis asthis dmeeting cxzcaabout",
+					"start_date_iso": "2020-08-17T10:30:00.000Z",
+					"end_date_iso": "2020-08-17T12:00:00.000Z"
 				}
 			]
 		},
