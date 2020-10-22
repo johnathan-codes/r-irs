@@ -43,5 +43,13 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"guppy": {
+		"id": "e350bf90-096c-11eb-997d-2ff3a361ac64",
+		"name": "r-irs",
+		"type": "create-react-app",
+		"color": "#AA00FF",
+		"icon": null,
+		"createdAt": 1602164883979
 	}
 }
