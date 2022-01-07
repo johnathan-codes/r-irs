@@ -3,7 +3,7 @@ import { RoomsIF } from '../helpers/interfaces'
 import RoomCard from './RoomCard'
 
 const RoomsList = ({ rooms }: RoomsIF) => {
-	console.log('Rooms -> rooms', rooms)
+	console.log('Rooms -> rooms ', rooms)
 
 	return (
 		<div className="App">
